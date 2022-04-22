@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CursoJava.iml" filepath="$PROJECT_DIR$/.idea/CursoJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CursoJavaCompleto/CursoJavaCompleto.iml" filepath="$PROJECT_DIR$/CursoJavaCompleto/CursoJavaCompleto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CursoJavaCompleto/src/CursoJavaCompleto1.iml" filepath="$PROJECT_DIR$/CursoJavaCompleto/src/CursoJavaCompleto1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dolar/Dolar.iml" filepath="$PROJECT_DIR$/Dolar/Dolar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employee/Employee.iml" filepath="$PROJECT_DIR$/Employee/Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Product/Product.iml" filepath="$PROJECT_DIR$/Product/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramImproved/ProgramImproved.iml" filepath="$PROJECT_DIR$/ProgramImproved/ProgramImproved.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rectangle/Rectangle.iml" filepath="$PROJECT_DIR$/Rectangle/Rectangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/Triangle/Triangle.iml" />
+    </modules>
+  </component>
+</project>

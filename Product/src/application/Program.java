@@ -12,11 +12,9 @@ public class Program {
 
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        product.name = scanner.nextLine();
+        product.setName(scanner.nextLine());
         System.out.print("Price: ");
-        product.price = scanner.nextDouble();
-        System.out.print("Quantity: ");
-        product.quantity = scanner.nextInt();
+        product.setPrice(scanner.nextDouble());
 
         System.out.println("Product Data: " + product);
         System.out.println();
