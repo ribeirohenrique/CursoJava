@@ -64,6 +64,6 @@ public class Program {
         //Buscando o mes da data (precisa incrementar 1+ pois comeca em zero)
         int month = 1 + calendar.get(Calendar.MONTH);
         System.out.println("Month: " + month);
-        
+
     }
 }
