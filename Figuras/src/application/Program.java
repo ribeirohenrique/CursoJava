@@ -45,7 +45,7 @@ public class Program {
         System.out.println();
         System.out.println("Shape areas: ");
         for (Shape shape : shapeList) {
-            System.out.println(String.format("%.2f", shape.area()));
+            System.out.printf("%.2f%n", shape.area());
         }
     }
 }
