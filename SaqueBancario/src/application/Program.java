@@ -5,6 +5,7 @@ import model.exceptions.DomainException;
 
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -36,8 +37,12 @@ public class Program {
             System.out.println(account);
 
 
-        } catch (ParseException e) {
-
+        } catch (InputMismatchException e) {
+            System.out.println("wrong data input, finishing...");
+        } catch (DomainException e) {
+            System.out.println(e.getMessage());
+        } catch (RuntimeException e) {
+            System.out.println("Unexpected error, finishing...");
         }
     }
 }

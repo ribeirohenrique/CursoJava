@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e5aed5-213a-491e-b659-0c233a3b092d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TratandoExcessao/src/application/AbrirArquivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TratandoExcessao/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figuras/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Figuras/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/henrique.r.mendes/OneDrive - Accenture/Documents/Desenvolvimento/Cursos/ProjetosCurso/ReservaHotel"
+    "last_opened_file_path": "C:/Users/henrique.r.mendes/OneDrive - Accenture/Documents/Desenvolvimento/Cursos/CursoJava/TratandoExcessao",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RunManager">
@@ -66,6 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651760377265</updated>
       <workItem from="1651760379431" duration="3069000" />
+      <workItem from="1651777437868" duration="943000" />
+      <workItem from="1651859394251" duration="60000" />
     </task>
     <servers />
   </component>
@@ -79,5 +82,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
