@@ -2,7 +2,7 @@ package model.services;
 
 import org.w3c.dom.DOMImplementation;
 
-public class BrasilTaxServices {
+public class BrasilTaxServices implements TaxService {
 
     public double tax(double amount) {
         if (amount <= 100.0) {
@@ -12,3 +12,4 @@ public class BrasilTaxServices {
         }
     }
 }
+

@@ -2,24 +2,21 @@ package model.services;
 
 import model.entities.CarRental;
 import model.entities.Invoice;
-import model.entities.Vehicle;
-
-import java.util.Date;
 
 public class RentalService {
 
     private Double pricePerDay;
     private Double pricePerHour;
 
-    private BrasilTaxServices taxServices;
+    private TaxService taxService;
 
     public RentalService() {
     }
 
-    public RentalService(Double pricePerDay, Double pricePerHour, BrasilTaxServices taxServices) {
+    public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) {
         this.pricePerDay = pricePerDay;
         this.pricePerHour = pricePerHour;
-        this.taxServices = taxServices;
+        this.taxService = taxService;
     }
 
     double basicPayment;
@@ -33,7 +30,7 @@ public class RentalService {
             basicPayment = Math.ceil(hours / 24) * pricePerDay;
         }
 
-        double tax = taxServices.tax(basicPayment);
+        double tax = taxService.tax(basicPayment);
 
         carRental.setInvoice(new Invoice(basicPayment, tax));
     }
